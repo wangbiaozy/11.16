@@ -1,0 +1,42 @@
+html,body{
+    background-color: #ededef;
+    section{
+        >div{
+            &:nth-child(1){
+                width: 7.5rem;
+                height: 3.44rem;
+                background: url(../images/pingxuan_header.png) center no-repeat;
+                background-size: cover;
+            }
+            &:nth-child(2){
+                ul{
+                    padding-left: .26rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                    li{
+                        box-sizing: border-box;
+                        margin-bottom: .14rem;
+                        padding-top: .2rem;
+                        width: 3.4rem;
+                        height: 4.36rem;
+                        background-color: #ffffff;
+                        box-shadow: 0px 1px 20px 1px #dadada;
+                        &:nth-child(odd){
+                            margin-right: .16rem;
+                        }
+                        img{
+                            margin: 0 auto;
+                            display: block;
+                            width: 3rem;
+                            height: 2.16rem;
+                        }
+                        p{
+                            font-size: .24rem;
+                            color: #333333;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
