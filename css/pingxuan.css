@@ -1,0 +1,92 @@
+html,
+body {
+  background-color: #ededef;
+}
+html section > div:nth-child(1),
+body section > div:nth-child(1) {
+  width: 7.5rem;
+  height: 3.44rem;
+  background: url(../images/pingxuan_header.png) center no-repeat;
+  background-size: cover;
+}
+html section > div:nth-child(2) ul,
+body section > div:nth-child(2) ul {
+  padding-left: .26rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+html section > div:nth-child(2) ul li,
+body section > div:nth-child(2) ul li {
+  position: relative;
+  box-sizing: border-box;
+  margin-bottom: .14rem;
+  padding-top: .2rem;
+  width: 3.4rem;
+  height: 4.36rem;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 20px 1px #dadada;
+}
+html section > div:nth-child(2) ul li:nth-child(odd),
+body section > div:nth-child(2) ul li:nth-child(odd) {
+  margin-right: .16rem;
+}
+html section > div:nth-child(2) ul li img,
+body section > div:nth-child(2) ul li img {
+  margin: 0 auto .2rem;
+  display: block;
+  width: 3rem;
+  height: 2.16rem;
+}
+html section > div:nth-child(2) ul li p,
+body section > div:nth-child(2) ul li p {
+  padding: 0 .2rem;
+  font-size: .2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #333333;
+}
+html section > div:nth-child(2) ul li p span,
+body section > div:nth-child(2) ul li p span {
+  font-size: .18rem;
+}
+html section > div:nth-child(2) ul li a,
+body section > div:nth-child(2) ul li a {
+  position: absolute;
+}
+html section > div:nth-child(2) ul li a:nth-child(5),
+body section > div:nth-child(2) ul li a:nth-child(5) {
+  left: .24rem;
+  bottom: .2rem;
+  width: .4rem;
+  height: .34rem;
+  background: url(../images/xin.png) center no-repeat;
+  background-size: cover;
+}
+html section > div:nth-child(2) ul li a:nth-child(5).act,
+body section > div:nth-child(2) ul li a:nth-child(5).act {
+  background: url(../images/xin_act.png) center no-repeat;
+  background-size: cover;
+}
+html section > div:nth-child(2) ul li a:nth-child(6),
+body section > div:nth-child(2) ul li a:nth-child(6) {
+  right: .28rem;
+  bottom: .1rem;
+  width: 1.9rem;
+  height: .56rem;
+  background: url(../images/pingxuan_btn.png) center no-repeat;
+  background-size: cover;
+}
+html div.arrow,
+body div.arrow {
+  position: fixed;
+  bottom: .6rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: .42rem;
+  height: .24rem;
+  background: url(../images/arrow.gif) center no-repeat;
+  background-size: cover;
+  z-index: 2;
+}

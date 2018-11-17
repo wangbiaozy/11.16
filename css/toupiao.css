@@ -1,0 +1,97 @@
+html,
+body {
+  background-color: #ededef;
+}
+html section > div,
+body section > div {
+  width: 7.5rem;
+}
+html section > div:nth-child(1),
+body section > div:nth-child(1) {
+  height: 3.94rem;
+  background: url(../images/tou_bg_01.png) center no-repeat;
+  background-size: cover;
+}
+html section > div:nth-child(2),
+body section > div:nth-child(2) {
+  height: 4.1rem;
+  background: url(../images/tou_bg_02.png) center no-repeat;
+  background-size: cover;
+}
+html section > div:nth-child(3),
+body section > div:nth-child(3) {
+  position: relative;
+  padding-bottom: 1.6rem;
+}
+html section > div:nth-child(3) > div div,
+body section > div:nth-child(3) > div div {
+  width: 7.5rem;
+}
+html section > div:nth-child(3) > div div:nth-child(1),
+body section > div:nth-child(3) > div div:nth-child(1) {
+  height: 4rem;
+  background: url(../images/tou_list_01.png) center no-repeat;
+  background-size: cover;
+}
+html section > div:nth-child(3) > div div:nth-child(2),
+body section > div:nth-child(3) > div div:nth-child(2) {
+  height: 4.08rem;
+  background: url(../images/tou_list_02.png) center no-repeat;
+  background-size: cover;
+}
+html section > div:nth-child(3) > div div:nth-child(3),
+body section > div:nth-child(3) > div div:nth-child(3) {
+  height: 4.1rem;
+  background: url(../images/tou_list_03.png) center no-repeat;
+  background-size: cover;
+}
+html section > div:nth-child(3) > div div:nth-child(4),
+body section > div:nth-child(3) > div div:nth-child(4) {
+  height: 3.34rem;
+  background: url(../images/tou_list_04.png) center no-repeat;
+  background-size: cover;
+}
+html section > div:nth-child(3) > div div:nth-child(5),
+body section > div:nth-child(3) > div div:nth-child(5) {
+  height: 2.89rem;
+  background: url(../images/tou_list_05.png) center no-repeat;
+  background-size: cover;
+}
+html section > div:nth-child(3) > div div:nth-child(6),
+body section > div:nth-child(3) > div div:nth-child(6) {
+  height: 3.59rem;
+  background: url(../images/tou_list_06.png) center no-repeat;
+  background-size: cover;
+}
+html section > div:nth-child(3) a,
+body section > div:nth-child(3) a {
+  position: absolute;
+  bottom: .4rem;
+  width: 3.02rem;
+  height: .86rem;
+}
+html section > div:nth-child(3) a:nth-child(2),
+body section > div:nth-child(3) a:nth-child(2) {
+  left: .52rem;
+  background: url(../images/tou_btn_1.png) center no-repeat;
+  background-size: cover;
+}
+html section > div:nth-child(3) a:nth-child(3),
+body section > div:nth-child(3) a:nth-child(3) {
+  right: .62rem;
+  background: url(../images/tou_btn_2.png) center no-repeat;
+  background-size: cover;
+}
+html div.arrow,
+body div.arrow {
+  position: fixed;
+  bottom: .6rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: .42rem;
+  height: .24rem;
+  background: url(../images/arrow.gif) center no-repeat;
+  background-size: cover;
+  z-index: 2;
+}

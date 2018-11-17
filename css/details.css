@@ -1,0 +1,68 @@
+html section > div,
+body section > div {
+  width: 7.5rem;
+}
+html section > div:nth-child(1),
+body section > div:nth-child(1) {
+  height: 6.7rem;
+  background: url(../images/pic_01.png) center no-repeat;
+  background-size: cover;
+}
+html section > div:nth-child(2),
+body section > div:nth-child(2) {
+  height: 4.85rem;
+  background: url(../images/pic_02.png) center no-repeat;
+  background-size: cover;
+}
+html section > div:nth-child(3),
+body section > div:nth-child(3) {
+  height: 8.15rem;
+  background: url(../images/pic_03.png) center no-repeat;
+  background-size: cover;
+}
+html section > div:nth-child(4),
+body section > div:nth-child(4) {
+  height: 8.36rem;
+  background: url(../images/pic_04.png) center no-repeat;
+  background-size: cover;
+}
+html section > div:nth-child(5),
+body section > div:nth-child(5) {
+  height: 7.68rem;
+  background: url(../images/pic_05.png) center no-repeat;
+  background-size: cover;
+}
+html section > div:nth-child(6),
+body section > div:nth-child(6) {
+  position: relative;
+  height: 6.58rem;
+  background: url(../images/pic_06.png) center no-repeat;
+  background-size: cover;
+}
+html section > div:nth-child(6) p,
+body section > div:nth-child(6) p {
+  position: absolute;
+  bottom: .4rem;
+  width: 100%;
+  font-size: .18rem;
+  line-height: 1em;
+  text-align: center;
+  color: #006fb6;
+}
+html section > div:nth-child(6) p a,
+body section > div:nth-child(6) p a {
+  color: #006fb6;
+}
+html div.arrow,
+body div.arrow {
+  position: fixed;
+  bottom: .6rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: .42rem;
+  height: .24rem;
+  background: url(../images/arrow.gif) center no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
